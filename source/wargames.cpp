@@ -48,12 +48,4 @@ int main()
         std::getchar();
         }
     }
-    //if (studentname = "David Lightman")
-    //{
-    //   cout << "CLASS #   COURSE TITLE    GRADE   TEACHER   PERIOD    ROOM"; 
-    //}
-    //if (studentname = "David")
-    //{
-    //  cout << "CLASS #   COURSE TITLE    GRADE   TEACHER   PERIOD    ROOM";
-    //}
 }
