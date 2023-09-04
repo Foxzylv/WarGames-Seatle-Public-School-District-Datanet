@@ -4,27 +4,42 @@ using namespace std;
 
 int main()
 {
+    Sleep(1000);
     bool password_is_correct;
     string studentname;
-    cout << "PBP 11/278 PR3 TIP # 45                          TTY 34/984" << endl;
-    cout << "WELCOME TO THE SEATTLE PUBLIC SCHOOL DISTRICT DATANET" << endl;
+    cout << "PBP 11/278 PR3 TIP";
+    Sleep(70);
+    cout << "# 45                          ";
+    Sleep(70);
+    cout << "TTY 34/984" << endl;
+    cout << "WELCOME TO THE SE";
+    Sleep(70);
+    cout << "ATTLE PUBLIC SCHOOL D";
+    Sleep(70);
+    cout << "ISTRICT DATANET" << endl;
+    Sleep(70);
  do 
  {
-    cout << "PLEASE LOGGIN WITH USER PASSWORD: " << endl;
+    cout << "" << endl;
+    cout << "PLEASE LOGGIN WI";
+    Sleep(70);
+    cout << "TH USER PASSWORD: ";
     string password;
     getline(cin, password);
     if (password == "pencil")
     {
-        {
         bool password_is_correct = true;
+        cout << " " << endl;
         cout << "PASSWORD VERIFIED" << endl;
         Sleep(1000);
         system("cls");
      do
      {
-        cout << "PLEASE ENTER STUDENT NAME: ";
+        cout << "PLEASE EN";
+        Sleep(200);
+        cout << "TER STUDENT NAME: ";
         getline(cin, studentname);
-        if (studentname == "Lightman, David L")
+        if (studentname == "Lightman, David L" || studentname == "lightman, david l")
         {
         cout << "                                                            " << endl;
         cout << "CLASS #   COURSE TITLE    GRADE   TEACHER   PERIOD    ROOM" << endl;
@@ -40,10 +55,9 @@ int main()
         cout << "AND ENTER NEW VALUE";
         std::getchar();
         }
-     }
-    while (studentname != "Lightman, David L"); //while student name is not "Lightman, David L" it will loop back to "do" statement at line 23
-        }  
+      }
+      while (studentname != "Lightman, David L"); //while student name is not "Lightman, David L" it will loop back to "do" statement at line 23 
     }
-  } 
-    while (!password_is_correct); //while password is not "pencil" it will loop back to "do" statement at line 11
+  }
+  while (!password_is_correct); //while password is not "pencil" it will loop back to "do" statement at line 11 
 }
